@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "id": "pearldetector",
+  "version": "${version}",
+  "name": "PearlDetector",
+  "description": "A mod to detect when ender pearls are thrown!",
+  "authors": [
+    "Tektonikal, PirateCow"
+  ],
+  "contact": {
+    "homepage": "https://modrinth.com/mod/pearl-detector",
+    "issues": "https://discord.gg/HyUVJYeKS5"
+  },
+  "license": "LGPL-3.0",
+  "icon": "icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "main": [
+      "tektonikal.pearldetector.PearlDetector"
+    ]
+  },
+  "mixins": [
+    "pearldetector.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}",
+    "midnightlib": "*"
+  }
+}

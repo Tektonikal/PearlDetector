@@ -3,9 +3,9 @@
   "id": "pearldetector",
   "version": "${version}",
   "name": "PearlDetector",
-  "description": "A mod to detect when ender pearls are thrown!",
+  "description": "A mod to detect when ender pearls are thrown, and make them easier to see.",
   "authors": [
-    "Tektonikal, PirateCow"
+    "Tektonikal"
   ],
   "contact": {
     "homepage": "https://modrinth.com/mod/pearl-detector",
